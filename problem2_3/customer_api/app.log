@@ -1,0 +1,23 @@
+2026-05-13 07:40:38 - Customer API - INFO - Database engine created successfully
+2026-05-13 07:40:57 - Customer API - INFO - Database engine created successfully
+2026-05-13 07:42:04 - Customer API - INFO - Database engine created successfully
+2026-05-13 07:42:29 - Customer API - INFO - Database engine created successfully
+2026-05-13 07:44:48 - Customer API - INFO - Database session created
+2026-05-13 07:44:48 - Customer API - INFO - GET /customers - skip=0, limit=100
+2026-05-13 07:44:48 - Customer API - INFO - Fetching customers with skip=0, limit=100
+2026-05-13 07:44:48 - Customer API - ERROR - Error fetching customers: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-13 07:44:48 - Customer API - ERROR - Error in list_customers endpoint: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-05-13 07:44:48 - Customer API - ERROR - Database session error: 500: Internal server error
+2026-05-13 07:44:48 - Customer API - INFO - Database session closed
+2026-05-13 07:46:54 - Customer API - INFO - Database engine created successfully
+2026-05-13 07:47:02 - Customer API - INFO - Database session created
+2026-05-13 07:47:02 - Customer API - INFO - GET /customers - skip=0, limit=100
+2026-05-13 07:47:02 - Customer API - INFO - Fetching customers with skip=0, limit=100
+2026-05-13 07:47:02 - Customer API - INFO - Retrieved 100 customers
+2026-05-13 07:47:02 - Customer API - INFO - Total customers in database: 122
+2026-05-13 07:47:02 - Customer API - INFO - Returning 100 customers out of 122 total
+2026-05-13 07:47:02 - Customer API - INFO - Database session closed
